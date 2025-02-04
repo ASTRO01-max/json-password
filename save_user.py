@@ -23,7 +23,7 @@ while True:
 
     if choice == "1":
         users = read()
-        users.extend([u, u2])
+        users += [u, u2]
         write(users)
         print("data saved.")
 
